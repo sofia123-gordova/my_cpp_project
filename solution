@@ -1,0 +1,21 @@
+// Задание 1.
+// Сборка: c++ -std=c++17 -O3 -DNDEBUG first.cpp -o search_demo
+// Быстрая проверка: ./search_demo --size 100000 --queries 1000 --sample-ms 50
+// Основной опыт: ./search_demo --size 1000000 --queries 10000 --sample-ms 250
+// #include <algorithm>
+// #include <chrono>
+// #include <climits>
+// #include <cstdint>
+// #include <cstdlib>
+// #include <iomanip>
+// #include <iostream>
+// #include <random>
+// #include <string>
+// #include <vector>
+
+// using Id = std::uint64_t;
+
+// // Реализуйте только эту функцию. Готовая часть находится ниже.
+// bool contains(const std::vector<Id>& ids, Id target) {
+//     return std::find(ids.begin(), ids.end(), target) != ids.end();
+// }
